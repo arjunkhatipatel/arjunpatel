@@ -1,0 +1,35 @@
+/* Heading on every page */
+.heading {
+    padding: 10vh 0 0 0;
+}
+
+.heading-root {
+    text-align: center;
+}
+
+.heading-root span {
+    color: #8f8f9c;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Unbounded', cursive;
+    margin: 8px 0;
+}
+
+.heading-root h2 {
+    color: #4db5ff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Unbounded', cursive;
+    margin: 8px 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.material-symbols-outlined {
+    color: #4db5ff;
+    font-size: 16px !important;
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 20
+}

@@ -1,0 +1,185 @@
+@media (max-width: 1170px) {
+    .about-info {
+        margin: 50px 0px 0px 30px;
+    }
+
+    .skills-content-left,
+    .skills-content-right {
+        width: 35vw;
+    }
+
+    .portfolio-container {
+        row-gap: 1.5vh;
+    }
+
+    .review-items .review-cards img {
+        width: 42vw;
+    }
+
+
+}
+
+@media (max-width: 1030px) {
+    .projects-items .projects-cards img {
+        width: 36vw;
+    }
+}
+
+@media (max-width: 985px) {
+    .about-info {
+        margin: 50px 0px 0px 30px;
+    }
+}
+
+@media (max-width: 940px) {
+    .about-img {
+        margin: 80px 40px 0px 0px;
+    }
+}
+
+@media (max-width: 920px) {
+    .about-info {
+        margin: 50px 0px 0px 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .about-img {
+        margin: 100px 40px 0px 0px;
+    }
+}
+
+@media (max-width: 850px) {
+    nav {
+        flex-direction: column;
+        height: 10vh;
+    }
+
+    nav h2 {
+        margin: 20px 0 20px 0;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .navbar-mobile {
+        display: block;
+
+    }
+
+    .home-root {
+        flex-direction: column-reverse;
+    }
+
+    .home-root-2 {
+        margin: 125px auto 25px auto;
+    }
+
+    .home-root-1 {
+        margin: 0px auto -50px auto;
+    }
+
+    .actions {
+        margin: 30px 0 50px 0;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-img {
+        margin: 30px auto 20px auto;
+    }
+
+    .about-info {
+        width: 70vw;
+        margin: 0px auto 0px auto;
+    }
+
+    .skills-content {
+        flex-direction: column;
+    }
+
+    .skills-content-left {
+        width: 80vw;
+        margin: 30px auto 0px auto;
+    }
+
+    .skills-content-right {
+        width: 80vw;
+        margin: 30px auto 0px auto;
+    }
+
+    .skills-frontend-content,
+    .skills-other-content {
+        margin: 20px 12px;
+    }
+
+    .portfolio-container {
+        width: 85vw;
+    }
+
+    .portfolio-container {
+        grid-template-columns: auto auto;
+    }
+
+    .portfolio-container .projects-cards img {
+        width: 38vw;
+    }
+
+    .review-items .review-cards img {
+        width: 60vw;
+    }
+
+    .contact-call h3 {
+        width: 85vw;
+        margin: 17vh 0 17vh 3vw;
+        font-size: 2.5rem;
+    }
+
+    footer {
+        height: 32vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-root img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .portfolio-container {
+        width: 90vw;
+    }
+
+    .portfolio-container {
+        grid-template-columns: auto;
+    }
+
+    .portfolio-container .projects-cards img {
+        width: 85vw;
+    }
+
+    .review-items .review-cards img {
+        width: 75vw;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .home-root img {
+        width: 270px;
+        height: 270px;
+    }
+
+    .about-img img {
+        width: 270px;
+        height: 350px;
+        border-radius: 7px;
+    }
+
+    .about-info {
+        width: 80vw;
+    }
+}
