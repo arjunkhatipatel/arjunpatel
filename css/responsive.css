@@ -1,3 +1,9 @@
+@media (max-width: 1415px) {
+    .about-info {
+        margin: 60px 0px 0px 30px;
+    }
+}
+
 @media (max-width: 1170px) {
     .about-info {
         margin: 50px 0px 0px 30px;
@@ -39,7 +45,7 @@
 
 @media (max-width: 920px) {
     .about-info {
-        margin: 50px 0px 0px 30px;
+        margin: 40px 0px 0px 30px;
     }
 }
 

@@ -399,7 +399,8 @@ nav ul li:hover {
 
 .contact-card .fa-envelope,
 .fa-instagram,
-.fa-whatsapp {
+.fa-whatsapp,
+.fa-telegram {
     color: white;
     font-size: 25px;
     margin: 10px 0;
@@ -458,11 +459,12 @@ footer {
 
 .social ul li {
     margin: 30px 10px 0 10px;
+    transition-duration: 0.4s;
 }
 
 .social ul li:hover {
     margin: 20px 10px 0px 10px;
-    transition-duration: 0.7s;
+    transition-duration: 0.4s;
 }
 
 .social .social-replit {
