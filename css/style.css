@@ -162,6 +162,8 @@ nav ul li:hover {
 .about-content {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 60px auto 0 auto;
 }
 
 .about-img img {
@@ -171,16 +173,12 @@ nav ul li:hover {
     object-fit: cover;
 }
 
-.about-img {
-    margin: 60px 40px 0px 40px;
-}
-
 .about-info {
     color: white;
     text-align: justify;
     font-family: 'Unbounded', cursive;
     width: 40vw;
-    margin: 85px 0px 0px 35px;
+    margin: 0px 0px 0px 35px;
 }
 
 .about-info span {
@@ -328,6 +326,19 @@ nav ul li:hover {
     color: #FFFFFF;
 }
 
+.projects-disclaimer{
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px 0px 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.projects-disclaimer span {
+    color: #E97451;
+}
+
 /* Review page */
 
 .review-items {
@@ -472,9 +483,7 @@ footer {
     height: 31px;
 }
 
-.fa-linkedin,
-.fa-square-github,
-.fa-square-twitter {
+.social .fa-brands {
     color: #0f1626;
     font-size: 35px;
 }
