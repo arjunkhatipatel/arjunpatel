@@ -388,6 +388,19 @@ nav ul li:hover {
     color: #f8c63d;
 }
 
+/*Upwork Contracts*/
+.upwork-proof{
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 0 auto;
+    max-width: 80vw;
+}
+
+.upwork-proof img{
+    aspect-ratio: 16/9;
+    width: 50vw;
+    border-radius: 5px;
+}
 
 /* Contact Page */
 
@@ -476,11 +489,6 @@ footer {
 .social ul li:hover {
     margin: 20px 10px 0px 10px;
     transition-duration: 0.4s;
-}
-
-.social .social-replit {
-    width: 31px;
-    height: 31px;
 }
 
 .social .fa-brands {

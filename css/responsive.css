@@ -155,6 +155,10 @@
         width: 75vw;
     }
 
+    .upwork-proof img{
+        width: 75vw;
+    }
+
 }
 
 @media (max-width: 400px) {
